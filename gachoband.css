@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-top: 38px;
+    ;
+}
+
+li {
+    float: left;
+}
+
+.navbar_top{
+    width: 100%;
+    height: 150px;
+    background: black;
+    overflow: auto;
+    background-size: cover;
+
+}
+.navbar_top a{
+    width: 100px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    background-color: darkcyan;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li a:hover {
+    background-color: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    width: 170px;
+    height:120px;
+}
+
+.frontcover{
+    background-image: url("Demo Front Cover.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: 100% 100%;
+    position: inherit;
+    
+}
+
+
